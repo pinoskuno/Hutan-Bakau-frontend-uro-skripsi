@@ -1,0 +1,42 @@
+{
+  "name": "sistem-informasi-divisi-mro",
+  "version": "1.0.0",
+  "description": "Sistem Informasi PT IMSS Divisi MRO",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@popperjs/core": "^2.11.7",
+    "axios": "^1.6.5",
+    "bootstrap": "^5.2.3",
+    "firebase": "^9.21.0",
+    "nanoid": "^4.0.2",
+    "regenerator-runtime": "^0.13.11",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "html-webpack-plugin": "^5.5.1",
+    "postcss-loader": "^7.3.0",
+    "sass": "^1.77.6",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3",
+    "webpack-merge": "^5.8.0"
+  }
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="dicoding:email" content="111202012586@mhs.dinus.ac.id">
+  <title>RT Project</title>
+  <!-- Favicons -->
+  <link href="./assets/img/favicon.png" rel="icon" />
+  <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link rel="manifest" href="app.webmanifest" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+    integrity="sha512-XJ3ntWHl40opEiE+6dGhfK9NAKOCELrpjiBRQKtu6uJf9Pli8XY+Hikp7rlFzY4ElLSFtzjx9GGgHql7PLSeog=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" />
+
+  <!-- Vendor CSS Files -->
+  <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css" />
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="../../..//src/public/assets/css/pinos.css">
+  <link rel="stylesheet" href="../../..//src/public/assets/css/satudata.css">
+  <link href="./assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+  <nav class="navbar navbar-expand-lg bg-light fixed-top shadow py-3 fs-5" id="header">
+    <div class="container-fluid container">
+      <div class="d-flex align-items-center justify-content-between">
+        <a href="#" class="logo d-flex align-items-center">
+          <img src="./assets/img/logo.png" alt="" />
+          <span class="d-block">RT Project</span>
+        </a>
+      </div>
+      <!-- End Logo -->
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list toggle-sidebar-btn"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto" style= "font-family:Poppins,sans-serif;">
+          <li class="nav-item">
+            <a class="nav-link me-3 btn btn-info fw-bold text-light" id="dashboardlink" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="navHome" href="#"><b>Home</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="navProduk" href="#/product"><b>Products</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="navBlog" href="#/blog"><b>Blogs</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="navAbout" href="#/about"><b>About Us</b></a>
+          </li>
+          <li class="nav-item">
+              <a href="#/checkout" class="nav-link" id='checkout'><b>Checkout</b></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Dropdown</b></a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#" id='logoutButton'>Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+        
+        
+        
+      </div>
+    </div>
+  </nav>
+
+  <!-- main -->
+  <main style="margin-top: 40px; overflow-x: hidden" id="home"></main>
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+
+  <footer>
+    <div class="container">
+      <div>
+          <a href="#" class="brand" aria-label="RT Project">
+              <img src="./assets/img/logo.png" alt="Logo RT Project">
+              <b>RT Project</b>
+          </a></br></br>
+          <p>Reforma Trash Project merupakan wadah penjualan sampah yang bertujuan untuk pengelolaan sampah</p>
+      </div>
+      <div class="sosmed">
+        <b>Subscribe</b>
+        <div class="sosmed-list">
+          <a href="#" aria-label="Facebook RT Project">
+              <span is="i-icon"><i class="fa-brands fa-square-facebook"></i></i></span>
+          </a>
+          <a href="#" aria-label="Instagram RT Project">
+              <span is="i-icon"><i class="fa-brands fa-square-instagram"></i></span>
+          </a>
+          <a href="#" aria-label="Twitter RT Project">
+              <span is="i-icon"><i class="fa-brands fa-square-twitter"></i></span>
+          </a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; | SIB Batch 3 2022 - Dicoding Academy</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- End Footer -->
+  <script src="./assets/js/main.js"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".nav-link").on("click", function () {
+        $(".nav-link").removeClass("active");
+        $(this).addClass("active");
+      });
+    });
+  </script>
+
+  <!-- Template Main JS File -->
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

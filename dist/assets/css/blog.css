@@ -1,0 +1,38 @@
+/*--------------------------------------------------------------
+  # Alur Pendaftarn Pasien
+  --------------------------------------------------------------*/
+  .values .box {
+    padding: 30px;
+    box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+    text-align: center;
+    transition: 0.3s;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .values .box img {
+    padding: 30px 50px;
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+  
+  .values .box h3 {
+    font-size: 24px;
+    color: #012970;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+  
+  .values .box:hover {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    border-radius: 10px;
+  }
+  
+  .values .box:hover img {
+    transform: scale(1);
+  }
+  
+  .values .box p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+  }
